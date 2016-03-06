@@ -9,16 +9,6 @@ import React, {
   View
 } from 'react-native'
 
-const MOCKED_MOVIES_DATA = [
-  {
-    title: 'Title',
-    year: '2016',
-    posters: {
-      thumbnail: 'http://i.imgur.com/UePbdph.jpg'
-    }
-  }
-]
-
 const REQUEST_URL = 'https://raw.githubusercontent.com/facebook/react-native/master/docs/MoviesExample.json'
 
 class zurich extends Component {
